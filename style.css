@@ -35,13 +35,18 @@
     margin: 0.5rem;
   }
 
+  #om {
+    height: 3rem;
+    filter: invert(1);
+  }
+
   .menu:hover {
     opacity: 0.9;
   }
 
   /* 
-                        Description styling
-                        */
+  Description styling
+    */
 
   .description {
     margin: 0.5rem;
