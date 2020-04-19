@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  body {
+    background: white;
+    transition: all 0.3s ease;
+  }
+  /* 
+                        Header styling
+                        */
+  header {
+    font-size: 1.8rem;
+    background: rgb(44, 111, 255);
+    position: sticky;
+    top: 0;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem;
+  }
+
+  .menu:hover {
+    opacity: 0.9;
+  }
+
+  /* 
+                        Description styling
+                        */
+
+  .description {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .descriptive_elem {
+    font-size: 1.6rem;
+    margin-left: 0.5rem;
+  }
+
+  .ulchild {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  /* 
+                        Founders section  styling
+                        */
+
+  .founders {
+    margin: 0.5rem;
+    background-color: white;
+  }
+
+  .director,
+  .principle {
+    display: flex;
+    font-size: 1.6rem;
+    margin: 0.5rem;
+    background-color: #eeeeee;
+    flex-direction: column;
+  }
+
+  /* 
+                        Addmission  styling
+                        */
+  .addmission {
+    font-size: 1.6rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .addmission p {
+    margin: 1rem auto;
+  }
+
+  /* 
+                        Footer  styling
+                        */
+  footer {
+    font-size: 1.6rem;
+  }
+
+  .credit {
+    text-align: end;
+    padding: 0.5rem;
+    color: black;
+  }
+
+  #contact_us img {
+    height: 3rem;
+    margin: 1rem;
+  }
+
+  #contact_us {
+    margin: 0.3rem auto;
+    background: #444444;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #contact_us img:hover,
+  .credit:hover {
+    filter: invert(1);
+  }
+
+  /* 
+                        Tag  styling
+                        */
+  h3 {
+    font-size: 2rem;
+    text-decoration: underline black;
+  }
+
+  article {
+    background-color: #eeeeee;
+  }
+}
